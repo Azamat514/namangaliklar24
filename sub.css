@@ -1,0 +1,52 @@
+*{
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    background: 
+    linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), 
+    url('img/namangaliklar.png');
+}
+
+.subscribe{
+    width: 350px;
+    height: 250px;
+    background-color: white;
+    border-radius: 10px;
+    position: absolute;
+    left: 40%;
+    top: 30%;
+}
+
+
+.subscribe_text{
+margin-top: 40px;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 31px;
+text-align: center;
+
+color: #295093;
+}
+
+.telegram_btn {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 8px 14px;
+  background: #1E90FF;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.telegram_btn img {
+  width: 18px;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

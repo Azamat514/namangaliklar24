@@ -43,7 +43,6 @@ body {
 .right {
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 
 .lang_icon {
@@ -251,8 +250,8 @@ body {
 
 .footer_btn {
     padding: 10px 20px;
-    background: white;
-    color: #204d93;
+    background: #0066cc;
+    color: #fff;
     border-radius: 6px;
     border: none;
 }
@@ -266,4 +265,37 @@ body {
 
 .footer_links .col h4 {
     margin-bottom: 10px;
+}
+
+
+.left__texts{
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+
+color: #2c2c2c;
+}
+
+
+span{
+    color: rgba(0, 0, 0, 1);
+}
+
+.tema__cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.tema__texte{   
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+
+
 }
